@@ -17,4 +17,16 @@
 %define __find_provides %{nil}
 %define __find_requires %{nil}
 
+%define straggler_files \
+/f2fs-fstab.qcom\
+/f2fscheck.sh\
+/init.class_main.sh\
+/init.qcom.class_core.sh\
+/init.qcom.early_boot.sh\
+/init.qcom.sh\
+/init.qcom.syspart_fixup.sh\
+/init.qcom.usb.sh\
+/fstab.qcom\
+%{nil}
+
 %include rpm/dhd/droid-hal-device.inc
